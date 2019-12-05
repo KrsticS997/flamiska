@@ -1,0 +1,58 @@
+html, body{
+    background-color: mistyrose;
+    scroll-behavior: smooth;
+}
+
+h4{
+    color: black;
+    font-family: 'Courgette', cursive;
+}
+
+h1{
+    color: hotpink;
+    font-family: 'Courgette', cursive;
+}
+
+p.card-text{
+    color: black;
+    font-size: 16px;
+    font-family: 'Courgette', cursive;
+}
+
+img.card-img{
+    height: 650px;
+    opacity: 0.25;
+}
+
+div.carousel-item{
+    height: 600px;
+}
+
+tr:hover{
+    background-color: rosybrown;
+}
+
+table{
+    position: relative;
+    left:45px;
+    width: 450px;
+}
+
+td{
+  border-bottom: 1.5px solid gray;
+}
+
+th{
+  border-bottom: 2px solid gray;
+}
+
+#pozadina{
+    width: 540px;
+    margin: 0px auto;
+    background-color: lightpink;
+    border-radius: 40px;
+}
+
+td:first-child{
+    width: 330px;
+}
