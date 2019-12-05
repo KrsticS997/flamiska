@@ -60,7 +60,7 @@ td:first-child{
 
 
 @media screen and (max-width:600px){
-   #pozadina{
+   table{
     width: 100%;
 }
 
