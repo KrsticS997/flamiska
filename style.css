@@ -13,18 +13,18 @@ h1{
     font-family: 'Courgette', cursive;
 }
 
-p.card-text{
+.usluge{
     color: white;
     font-size: 16px;
     font-family: 'Courgette', cursive;
 }
 
-img.card-img{
+.usluga{
     height: 650px;
     opacity: 0.25;
 }
 
-div.carousel-item{
+.carousel-item{
     height: 100vh;
 }
 
