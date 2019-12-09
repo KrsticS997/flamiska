@@ -71,6 +71,26 @@ td:first-child{
     width: 330px;
 }
 
+form{
+    width: 308px;
+}
+
+h3{
+    text-align: center;
+}
+
+.cointainer{
+    width: 308px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.dugme{
+    background-color: rosybrown;
+    border: 1.5px solid gray;
+    border-radius: 3px;
+}
+
 
 
 
