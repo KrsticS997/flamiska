@@ -45,26 +45,49 @@
     </ul>
   </div>
 </nav>
-
-<div class="cointainer">
 <form>
-<h3>REZERVACIJA</h3>
-Ime: <br><input type="text" name="ime" size="40"><br>
-Prezime: <br><input type="text" name="prezime" size="40"><br>
-Kontakt telefon: <br><input type="text" name="brtelefona" size="40"><br><br>
-Vrsta usluge:
-   <select name="usluge">
-       <option disabled selected>Izaberi...</option>
-       <option>Frizer</option>
-       <option>Nokti</option>
-       <option>Depilacija</option>
-       <option>Šminkanje</option>
-       <option>Svilene trepavice</option>
-       <option>Puder obrve</option>
-   </select><br>
-   <br><textarea name="komentar" rows="5" cols="40" placeholder="Ovde unesite dodatni komentar..."></textarea><br><br>
-    <input class="dugme" type="submit" value="REZERVIŠI">
+ <div class="cointainer">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="ime">Ime:</label>
+      <input type="text" class="form-control" id="ime">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="prezime">Prezime:</label>
+      <input type="text" class="form-control" id="prezime">
+    </div>
+  </div>
+     <div class="col-md-4 mb-3">
+      <label for="validationDefaultUsername">Kontakt telefon:</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="brtel">+381</span>
+        </div>
+        <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputUsluge">Vrsta usluge:</label>
+      <select id="inputUsluge" class="form-control">
+        <option selected>Izaberite...</option>
+        <option>Frizer</option>
+        <option>Nokti</option>
+        <option>Depilacija</option>
+        <option>Šminkanje</option>
+        <option>Svilene trepavice</option>
+        <option>Puder obrve</option>
+      </select>
+    </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary dugme">REZERVIŠI</button>
+  </div>
 </form>
-</div>
 </body>
 </html>
