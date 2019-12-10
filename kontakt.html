@@ -11,6 +11,8 @@
      crossorigin="anonymous"></script>
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
+
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light"  style="background-color: rosybrown;">
   <a class="navbar-brand" href="index.html"><img src="slike/logo.PNG" width="75" height="55" alt="logo"></a>
@@ -45,8 +47,11 @@
     </ul>
   </div>
 </nav>
+
+
 <form>
  <div class="cointainer">
+ <h3>REZERVACIJA VAŠEG TERMINA</h3>
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="ime">Ime:</label>
@@ -58,18 +63,18 @@
     </div>
   </div>
      <div class="mb-3">
-      <label for="validationDefaultUsername">Kontakt telefon:</label>
+      <label for="brtel">Kontakt telefon:</label>
       <div class="input-group">
         <div class="input-group-prepend">
           <span class="input-group-text" id="brtel">+381</span>
         </div>
-        <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+        <input type="text" class="form-control" id="validationDefaultNumber" aria-describedby="inputGroupPrepend2" required>
       </div>
     </div>
     <div class="form-group">
       <label for="inputUsluge">Vrsta usluge:</label>
       <select id="inputUsluge" class="form-control">
-        <option selected>Izaberite...</option>
+        <option disabled selected>Izaberite...</option>
         <option>Frizer</option>
         <option>Nokti</option>
         <option>Depilacija</option>
@@ -85,5 +90,107 @@
   <button type="submit" class="btn btn-primary dugme">REZERVIŠI</button>
   </div>
 </form>
+
+
 </body>
+
+
+<footer class="page-footer font-small mdb-color lighten-3 pt-4">
+  <div class="container text-center text-md-left">
+    <div class="row">
+      <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+        <h5 class="font-weight-bold text-uppercase mb-4">Footer Content</h5>
+        <p>Here you can use rows and columns to organize your footer content.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate
+          esse
+          quasi, veritatis totam voluptas nostrum.</p>
+      </div>
+      <hr class="clearfix w-100 d-md-none">
+      <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+        <h5 class="font-weight-bold text-uppercase mb-4">Naše usluge</h5>
+        <ul class="list-unstyled">
+          <li>
+            <p>
+              <a href="usluge.html#frizer">FRIZER</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="usluge.html#nokti">NOKTI</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="usluge.html#depilacija">DEPILACIJA</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="usluge.html#sminka">ŠMINKANJE</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="usluge.html#trepavice">SVILENE TREPAVICE</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="usluge.html#puder">PUDER OBRVE</a>
+            </p>
+          </li>
+        </ul>
+
+      </div>
+      <hr class="clearfix w-100 d-md-none">
+      <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+        <h5 class="font-weight-bold text-uppercase mb-4">Kontakt</h5>
+        <ul class="list-unstyled">
+          <li>
+            <p>
+              <i class="fas fa-home mr-3"></i> Klisanski put 101, Novi Sad, SRB</p>
+          </li>
+          <li>
+            <p>
+              <i class="fas fa-envelope mr-3"></i> salonflamsika@gmail.com</p>
+          </li>
+          <li>
+            <p>
+              <i class="fas fa-phone mr-3"></i> + 381 64 4437 912 Jasna</p>
+          </li>
+          <li>
+            <p>
+              <i class="fas fa-phone mr-3"></i> + 381 64 5255 387 Sandra</p>
+          </li>
+          <li>
+            <p>
+              <i class="fas fa-print mr-3"></i> + 381 63 7707 406 Jelena</p>
+          </li>
+          <li>
+            <p>
+              <i class="fas fa-print mr-3"></i> + 381 21 2414 670 salon</p>
+          </li>
+        </ul>
+      </div>
+      <hr class="clearfix w-100 d-md-none">
+      <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+        <h5 class="font-weight-bold text-uppercase mb-4">Zapratite nas</h5>
+
+        <a type="button" class="btn-floating btn-fb">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a type="button" class="btn-floating btn-tw">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a type="button" class="btn-floating btn-gplus">
+          <i class="fab fa-google-plus-g"></i>
+        </a>
+      </div>
+    </div>
+
+  </div>
+  <div class="footer-copyright text-center py-3">&copy; 2019 Copyright:
+    <a href="index.html">SalonLepoteFlamiška</a>
+  </div>
+</footer>
 </html>
