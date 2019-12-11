@@ -88,11 +88,20 @@ h3{
 .dugme{
     background-color: rosybrown;
     border: 1.5px solid gray;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .linkic{
     color: black;
+}
+
+footer{
+    background-color: beige;
+}
+
+form{
+    position: relative;
+    left:435px;
 }
 
 .drmreze{
