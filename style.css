@@ -79,13 +79,13 @@ h3{
     text-align: center;
     width: 600px;
     margin: 0 auto;
-    background-color: lightpink;
+    background-color: rosybrown;
     padding: 35px 35px; 
     border-radius: 5px;
 }
 
 .dugme{
-    background-color: rosybrown;
+    background-color: pink;
     border: 1.5px solid gray;
     border-radius: 5px;
 }
@@ -131,11 +131,6 @@ form{
 
     td:first-child{
         width:250px;
-    }
-
-    .kocka {
-    width: 200px;
-    height: 200px;
     }
 
     .rezervacija{
