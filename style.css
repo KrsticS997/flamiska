@@ -125,10 +125,6 @@ form{
 
 
 @media screen and (max-width:600px){
-   table{
-       width: 100%;
-    }
-
     .pozadina {
         width: 90%;
     }
