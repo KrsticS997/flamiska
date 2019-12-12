@@ -76,9 +76,12 @@ h3{
 }
 
 .rezervacija{
-    width: 500px;
+    text-align: center;
+    width: 600px;
     margin: 0 auto;
-    padding: 25px;
+    background-color: lightpink;
+    padding: 35px 35px; 
+    border-radius: 5px;
 }
 
 .dugme{
@@ -96,10 +99,10 @@ footer{
 }
 
 form{
-    position: relative;
-    left:435px;
-    background-color: lightpink;
-    border-radius: 5px;
+    /* position: relative;
+    left:435px; */
+    margin: 0 auto;
+    width: 100%;
 }
 
 .drmreze{
@@ -134,8 +137,12 @@ form{
         width:250px;
     }
 
-    .kocka{
+    .kocka {
     width: 200px;
     height: 200px;
+    }
+
+    .rezervacija{
+        width: 90%;
+    }
 }
-                                   }
