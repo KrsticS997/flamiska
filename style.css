@@ -115,8 +115,8 @@ form{
 }
 
 .kocka{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 
@@ -136,4 +136,8 @@ form{
     .rezervacija{
         width: 90%;
     }
+    .kocka{
+    width: 250px;
+    height: auto;
+}
 }
