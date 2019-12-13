@@ -33,7 +33,7 @@ h1{
     opacity: 0.25;
 }
 
-.carousel-item{
+.slide{
     height: 100vh;
 }
 
@@ -42,8 +42,6 @@ tr:hover{
 }
 
 table{
-    /* position: relative;
-    left:45px; */
     width: 100%;
 }
 
@@ -136,8 +134,10 @@ form{
     .rezervacija{
         width: 90%;
     }
+
     .kocka{
     width: 250px;
     height: auto;
-}
+    }
+
 }
