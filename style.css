@@ -153,4 +153,13 @@ form{
     height: auto;
     }
 
+    #frizer img, 
+    #nokti img, 
+    #depilacija img, 
+    #sminka img, 
+    #trepavice img, 
+    #puder img{
+    display: none;
+}
+
 }
