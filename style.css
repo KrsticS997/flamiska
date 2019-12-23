@@ -23,51 +23,17 @@ h1{
     font-family: 'Courgette', cursive;
 }
 
-#frizer img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.35;
+/* ************Ovaj deo sam promenio da tekst dodje ispred slike****************** */
+.container h1, .container p{
+    position: relative;
 }
+/* ********************************************************* */
 
-#nokti img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.35;
-}
-
-#depilacija img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.35;
-}
-
-#sminka img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.35;
-}
-
-#trepavice img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.35;
-}
-
+#frizer img, 
+#nokti img, 
+#depilacija img, 
+#sminka img, 
+#trepavice img, 
 #puder img{
     position: absolute;
     top: 0;
@@ -77,10 +43,10 @@ h1{
     opacity: 0.35;
 }
 
-.container{
+
+#frizer, #nokti, #depilacija, #sminka, #trepavice, #puder{
+
     position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .slide{
@@ -186,5 +152,14 @@ form{
     width: 250px;
     height: auto;
     }
+
+    #frizer img, 
+    #nokti img, 
+    #depilacija img, 
+    #sminka img, 
+    #trepavice img, 
+    #puder img{
+    display: none;
+}
 
 }
