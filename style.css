@@ -153,6 +153,10 @@ form{
     height: auto;
     }
 
+    .container{
+    background-color: lightgrey;
+    }
+
     #frizer img, 
     #nokti img, 
     #depilacija img, 
@@ -160,6 +164,6 @@ form{
     #trepavice img, 
     #puder img{
     display: none;
-}
+    }
 
 }
