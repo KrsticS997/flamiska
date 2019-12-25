@@ -173,4 +173,7 @@ form{
     display: none;
     }
 
+    .slide{
+    height: 50vh;
+    }
 }
