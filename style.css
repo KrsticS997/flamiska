@@ -27,7 +27,6 @@ h1{
 .container h1, .container p{
     position: relative;
 }
-/* ********************************************************* */
 
 #frizer img, 
 #nokti img, 
@@ -173,5 +172,9 @@ form{
     #puder img{
     display: none;
     }
+
+    .slide{
+    height: 100vh;
+}
 
 }
