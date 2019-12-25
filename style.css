@@ -173,4 +173,7 @@ form{
     display: none;
     }
 
+    .carousel{
+    height: 80vh;
+    }
 }
