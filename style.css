@@ -129,7 +129,15 @@ form{
     height: 250px;
 }
 
+.vrh i{
+    color: black;
+    font-size: 2em;
+    background-color: darkgrey;
+    border-radius: 40%;
+}
+
 .vrh{
+    text-align: center;
 }
 
 
