@@ -47,7 +47,7 @@ h1{
 }
 
 .slide{
-    height: 100vh;
+    height: 90vh;
 }
 
 tr:hover{
@@ -174,6 +174,6 @@ form{
     }
 
     .slide{
-    height: 50vh;
+    height: 40vh;
     }
 }
