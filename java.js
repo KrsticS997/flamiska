@@ -2,12 +2,12 @@ $(document).ready(function () {
 
     var radSelect = $('#inputRad');
 
-    var frizer = ['Dečije šišanje', 'Žensko šišanje', 'Feniranje'];
-    var nokti = [];
-    var depilacija = [];
-    var sminkanje = [];
-    var trepavice = [];
-    var obrve = [];
+    var frizer = ['Dečije šišanje', 'Žensko šišanje', 'Feniranje', 'Šišanje + feniranje', 'Lokne', 'Peglanje bez pranja kose', 'Farbanje', 'Preliv/izrastak', 'Farbanje + feniranje', 'Pramenovi + feniranje', 'Pramenovi + farbanje + feniranje', 'Skidanje boje', 'Dubinsko pakovanje kose', 'Svečane frizure', 'Pletenice', 'Brazilski keratin'];
+    var nokti = ['Nadogradnja noktiju', 'Korekcija noktiju', 'Ojačavanje noktiju', 'Skidanje noktiju', 'Lakiranje noktiju', 'Ukrašavanje noktiju'];
+    var depilacija = ['Depilacija - cele noge + prepone', 'Depilacija - cele noge + prepone + bikini', 'Depilacija ruku', 'Depilacija pola nogu', 'Depilacija prepona', 'Brazilska depilacija', 'Depilacija nausnica', 'Depilacija lica i brade', 'Depilacija stomaka', 'Depilacija pazuha'];
+    var sminkanje = ['Šminkanje', 'Šminkanje sa trepavicama', 'Šminkanje sa komplet trepavicama', 'Šminkanje mlade'];
+    var trepavice = ['Nadogradnja metodom 1:1', 'Korekcija', 'Skidanje gelom'];
+    var obrve = ['Senčenje obrva', 'Korekcija'];
 
 
     $('#inputUsluge').change(function () {
