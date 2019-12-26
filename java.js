@@ -14,31 +14,43 @@ $(document).ready(function () {
         var val = $(this).val();
         if (val == 'Frizer') {
             $('.inputRad').css('display','block');
+            $('.inputRad').find('option').remove();
+            $('#inputRad').append('<option disabled selected>Izaberite...</option>');
             frizer.forEach(function (value) {
                 radSelect.append('<option>' + value + '</option>')
             });
         } else if (val == 'Nokti') {
             $('.inputRad').css('display','block');
+            $('.inputRad').find('option').remove();
+            $('#inputRad').append('<option disabled selected>Izaberite...</option>');
             nokti.forEach(function (value) {
                 radSelect.append('<option>' + value + '</option>')
             });
         } else if (val == 'Depilacija') {
             $('.inputRad').css('display','block');
+            $('.inputRad').find('option').remove();
+            $('#inputRad').append('<option disabled selected>Izaberite...</option>');
             depilacija.forEach(function (value) {
                 radSelect.append('<option>' + value + '</option>')
             });
         } else if (val === 'Šminkanje') {
             $('.inputRad').css('display','block');
+            $('.inputRad').find('option').remove();
+            $('#inputRad').append('<option disabled selected>Izaberite...</option>');
             sminkanje.forEach(function (value) {
                 radSelect.append('<option>' + value + '</option>')
             });
         } else if (val == 'Svilene trepavice') {
             $('.inputRad').css('display','block');
+            $('.inputRad').find('option').remove();
+            $('#inputRad').append('<option disabled selected>Izaberite...</option>');
             trepavice.forEach(function (value) {
                 radSelect.append('<option>' + value + '</option>')
             });
         } else {
             $('.inputRad').css('display','block');
+            $('.inputRad').find('option').remove();
+            $('#inputRad').append('<option disabled selected>Izaberite...</option>');
             obrve.forEach(function (value) {
                 radSelect.append('<option>' + value + '</option>')
             });
